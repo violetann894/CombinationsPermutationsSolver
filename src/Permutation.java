@@ -1,7 +1,17 @@
+import java.math.BigInteger;
+
 public class Permutation {
 
-    private int n;
+    public int getPermutationEasy(int n, int c){
 
-    private int c;
 
+        return 0;
+    }
+
+    public BigInteger getPermutation(BigInteger n, BigInteger c){
+
+
+
+        return ;
+    }
 }

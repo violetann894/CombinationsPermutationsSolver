@@ -1,7 +1,18 @@
+import java.math.BigInteger;
+
 public class Combination {
 
-    private int n;
+    public int getCombinationEasy(int n, int c){
 
-    private int c;
 
+
+        return 0;
+    }
+
+    public BigInteger getCombination(BigInteger n, BigInteger c){
+
+
+
+        return ;
+    }
 }
