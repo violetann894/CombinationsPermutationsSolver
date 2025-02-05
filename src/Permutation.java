@@ -32,7 +32,7 @@ public class Permutation {
      * that are possible.
      * @param n The size of the set to choose from.
      * @param r The number of choices to be made from the set.
-     * @return
+     * @return The total number of groups that can be made from n and k as a BigInteger object.
      */
     public BigInteger getPermutation(BigInteger n, BigInteger r){
 
