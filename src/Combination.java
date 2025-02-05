@@ -11,11 +11,11 @@ public class Combination {
      * are possible.
      * @param n The size of the set to choose from.
      * @param r The number of choices to be made from the set.
-     * @return The total number of combinations that can be made from n and k.
+     * @return The total number of combinations that can be made from n and k as an integer.
      */
     public int getCombination(int n, int r){
 
-        //This method follows the formula for combinations n!/ r!(n-r)!
+        //This method follows the formula for combinations n!/r!(n-r)!
 
         //Find the numerator for the fraction
         int numerator = factorial(n);
@@ -36,7 +36,7 @@ public class Combination {
      */
     public BigInteger getCombination(BigInteger n, BigInteger r){
 
-        //This method follows the formula for combinations n!/ r!(n-r)!
+        //This method follows the formula for combinations n!/r!(n-r)!
 
         //Find the numerator for the fraction
         BigInteger numerator = factorial(n);
@@ -51,7 +51,7 @@ public class Combination {
     /**
      * The factorial method calculates the number equal to 1 * 2 * 3 * . . . * n-1 * n (noted usually as n!).
      * @param n The number to find the factorial of.
-     * @return The number equal to the factorial of n.
+     * @return The number equal to the factorial of n as an integer.
      */
     public int factorial(int n){
 
